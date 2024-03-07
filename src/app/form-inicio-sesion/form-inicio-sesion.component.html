@@ -1,0 +1,11 @@
+<form action="" method="post">
+    <mat-form-field>
+        <mat-label>Correo Electrónico: </mat-label>
+        <input [(ngModel)]="email" id="email" name="email" matInput>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Contraseña: </mat-label>
+        <input [(ngModel)]="password" id="password" name="password" matInput>
+    </mat-form-field>
+    <button mat-raised-button (click)="botonInciarSesion()">Iniciar Sesion</button>
+</form>
